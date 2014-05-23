@@ -74,7 +74,7 @@ module HerokuBackupTask; class << self
   end
 
   def transfers(cache = true)
-    client.get_transfers
+    client.get_backups
   end
 
   def backuped
